@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#244b4d"><title>北外滩 · 市场地图</title><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand"><div><h1>北外滩市场地图</h1><p>63号街坊 · 周边市场研究</p></div></div><div class="header-mid"><span class="live-dot"></span>数据更新：2026.11.17</div><div class="header-actions"><button id="about-btn">数据说明</button><button id="home-btn" class="primary">⌖ 回到本项目</button><button id="menu-btn" aria-label="展开项目列表">☰</button></div></header>
+<main>
+<aside id="sidebar">
+ <div class="sidebar-top"><div class="eyebrow">市场概览 <span>MARKET OVERVIEW</span></div><h2>周边项目与土地</h2><p>115条记录 · 115条已定位 · 0条待定位</p>
+ <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="搜索项目、地块、地址" aria-label="搜索项目、地块、地址"><kbd>/</kbd></label>
+ </div>
+ <section class="layers"><div class="section-heading"><b>显示图层</b><button id="toggle-all">全部关闭</button></div><div id="layer-controls"></div></section>
+ <section class="display-options"><div class="section-heading"><b>地图标注</b><select id="label-mode" aria-label="名称显示密度"><option value="smart">智能避让</option><option value="all">全部名称</option><option value="none">仅图钉</option></select></div><label class="slider-label">标注大小<input id="marker-size" type="range" min="80" max="130" step="10" value="100" aria-label="标注大小"></label><label class="checkbox-label"><input id="radius-toggle" type="checkbox" checked>显示约 2 km 参考圈</label></section>
+ <div class="list-heading"><b>项目目录 <span id="result-count">—</span></b><label><input type="checkbox" id="in-view">仅当前视野</label></div><div id="project-list" role="list"></div>
+</aside>
+<section class="map-shell" aria-label="市场地图"><div id="map"></div><div class="map-top"><div class="scope-control"><button class="active" id="nearby-btn">项目周边</button><button id="all-btn">全部项目</button><button id="land-btn">土地范围</button></div><div id="map-status" role="status">正在加载地图…</div></div><div class="map-bottom"><div class="map-note"><span class="own-dot"></span>北外滩63号街坊 <span class="note-divider">|</span> <span id="shown-count"></span></div><button id="quality-btn">ⓘ 定位与地块范围说明</button></div><div id="map-error" hidden>官方底图暂未加载。项目数据仍可查看。<button id="retry-map">重新加载</button></div></section>
+<aside id="detail" class="detail" hidden aria-label="项目详细信息"><div class="detail-top"><span id="detail-category"></span><button id="close-detail" aria-label="关闭详情">✕</button></div><div id="detail-content"></div></aside>
+</main>
+<dialog id="info-dialog"><button class="dialog-close" aria-label="关闭">✕</button><div class="eyebrow">阅读指南</div><h2>数据与地图说明</h2><div id="info-content"></div></dialog>
+<dialog id="source-dialog"><div class="source-toolbar"><b id="source-title">原始截图</b><a id="source-link" target="_blank" rel="noopener">原图新窗口 ↗</a><button class="dialog-close" aria-label="关闭截图">✕</button></div><div class="image-scroll"><img id="source-image" alt="CREIS原始截图，支持横向滚动查看"></div></dialog>
+<script src="vendor/leaflet.js"></script><script src="data.js"></script><script src="app.js"></script>
+</body></html>
+
