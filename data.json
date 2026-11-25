@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-25",
   "items": [
     {
       "name": "绿城·潮鸣外滩",
@@ -39,7 +39,10 @@
         "method": "manual_name_district_address_review"
       },
       "id": "residential-1",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "中粮·北外滩壹号",
@@ -97,7 +100,10 @@
       },
       "locationNote": "2026-11-16百度拾取器项目点，BD-09经coordtransform近似转换为WGS84；已在天地图·上海底图抽查道路对应关系。非测绘中心，不用于宗地边界。相邻同项目按用户要求选搜索结果靠前的一项。",
       "id": "residential-2",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "外滩瑞府",
@@ -155,7 +161,10 @@
       },
       "locationNote": "2026-11-16百度拾取器项目点，BD-09经coordtransform近似转换为WGS84；已在天地图·上海底图抽查道路对应关系。非测绘中心，不用于宗地边界。相邻同项目按用户要求选搜索结果靠前的一项。",
       "id": "residential-3",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "虹口源·717",
@@ -197,7 +206,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-4",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "海泰北外滩",
@@ -239,7 +251,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-5",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "碧云北外滩·尊邸",
@@ -281,7 +296,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-6",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "天潼198",
@@ -325,7 +343,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-7",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "苏河湾1号",
@@ -373,7 +394,43 @@
       ],
       "possibleSameProject": "用户确认珠江安康苑与苏河湾1号为重复项目；地图保留本条，另一条原始记录归档。",
       "id": "residential-9",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new",
+        "resale"
+      ],
+      "marketPrice": {
+        "name": "珠江安康苑",
+        "label": "近期成交价格参考",
+        "unitPrice": 105103,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "安居客",
+        "url": "https://shanghai.anjuke.com/prop/view/S4767924676535299",
+        "note": "按同址别名苏河湾1号查询，取房源页的小区参考指标，不取新房售楼价。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "resaleValues": {
+        "项目推广名称": "珠江安康苑",
+        "最新开盘": "2024-03-31",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "浙江北路388弄",
+        "建筑面积（㎡）": "255600",
+        "容积率": "6.8",
+        "绿化率": "18.00",
+        "总户数": "702",
+        "开发商": "上海超盛房地产开发有限公司",
+        "物业费（元/㎡·月）": "14.80",
+        "物业公司": "北京缦合酒店经营管理有限公司"
+      },
+      "resaleName": "珠江安康苑",
+      "resaleCoordinateStatus": "复用原地图坐标"
     },
     {
       "name": "海昌苑二期",
@@ -415,7 +472,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-10",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "云澜水岸",
@@ -457,7 +517,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-11",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "国贸·外滩潮颂",
@@ -521,7 +584,10 @@
       ],
       "updateNote": "用户2026-11-17确认更名，指标按新截图更新，沿用已有坐标。",
       "id": "residential-12",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "SH178",
@@ -563,7 +629,10 @@
       },
       "locationNote": "用户于2026-11-16提供百度拾取器坐标；本地按BD-09→GCJ-02→近似WGS84转换，与天地图·上海底图坐标系统一。项目参考点，非测绘中心或土地边界。",
       "id": "residential-13",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "外滩天潼里（ 天潼198二期 ）",
@@ -612,7 +681,10 @@
       },
       "nameSource": "用户2026-11-16要求更名；原始截图字段保留",
       "id": "residential-14",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "静安里",
@@ -655,7 +727,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-15",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "金茂·璞元",
@@ -698,7 +773,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-16",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "弘安里",
@@ -741,7 +819,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-17",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "越秀·外滩樾",
@@ -785,7 +866,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-18",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "湾上Domus",
@@ -828,7 +912,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-19",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "碧云北外滩·天成玖里",
@@ -872,7 +959,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-20",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "保利发展虹口北外滩余杭路项目",
@@ -915,7 +1005,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-21",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "洛克·外滩源二期",
@@ -958,7 +1051,10 @@
       },
       "locationNote": "用户提供百度坐标，按BD-09→GCJ-02→近似WGS84转换，与现有地图坐标系统一。",
       "id": "residential-22",
-      "type": "residential"
+      "type": "residential",
+      "residentialMarkets": [
+        "new"
+      ]
     },
     {
       "name": "上海南京路步行街",
@@ -4592,6 +4688,2810 @@
       "boundaryEvidence": "research/user_land_screenshots_20261116/杨浦区平凉社区02H1-01地块.png",
       "id": "land-8",
       "type": "land"
+    },
+    {
+      "id": "resale-1",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "圣和静安公馆",
+      "values": {
+        "项目推广名称": "圣和静安公馆",
+        "最新开盘": "2025-04-22",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "山西北路399弄、山西北路388弄",
+        "建筑面积（㎡）": "38276",
+        "容积率": "3.48",
+        "绿化率": "35.00",
+        "总户数": "356",
+        "开发商": "上海圣和圣置业有限公司",
+        "物业费（元/㎡·月）": "9.80",
+        "物业公司": "上海塘兴物业管理有限公司"
+      },
+      "address": "山西北路399弄、山西北路388弄",
+      "lng": 121.47446559842344,
+      "lat": 31.24830927494965,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.485528,
+        "lat": 31.252197
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "圣和静安公馆",
+        "matchedName": "圣和静安公馆",
+        "matchedAddress": "上海市静安区山西北路399弄(海宁路口)",
+        "uid": "18787ec83e7152dcf8dc85b6",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "圣和静安公馆",
+        "label": "近期成交价格参考",
+        "unitPrice": 133247,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "页面更新2026-11-12",
+        "sourceName": "吉屋",
+        "url": "https://sh.jiwu.com/loupan/286477.html",
+        "note": "山西北路399弄、388弄；更新时间不等于成交日期。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-1"
+    },
+    {
+      "id": "resale-3",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "天汇世纪玺",
+      "values": {
+        "项目推广名称": "天汇世纪玺",
+        "最新开盘": "2022-10-30",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "宝昌路55弄",
+        "建筑面积（㎡）": "72400",
+        "容积率": "2.97",
+        "绿化率": "35.00",
+        "总户数": "680",
+        "开发商": "上海兴美置业有限公司",
+        "物业费（元/㎡·月）": "10.00",
+        "物业公司": "融信(福建)物业管理有限公司上海分公司"
+      },
+      "address": "宝昌路55弄",
+      "lng": 121.47483868267635,
+      "lat": 31.25642876454505,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.485895,
+        "lat": 31.260311
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "天汇世纪玺",
+        "matchedName": "天汇世纪玺CENTURY GATHER",
+        "matchedAddress": "上海市静安区宝昌路55弄",
+        "uid": "c263bd98eb83099ff7b91632",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "天汇世纪玺",
+        "label": "近期成交价格参考",
+        "unitPrice": 134742.01,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称成交价",
+        "periodLabel": "页面更新2026-11-20；统计区间未披露",
+        "sourceName": "我爱我家",
+        "url": "https://sh.5i5j.com/xq_news/200033333.html",
+        "note": "搜索索引可读，直接访问需验证；平台未提供逐套成交依据，同站二手房列表亦显示该小区均价。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-3"
+    },
+    {
+      "id": "resale-4",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "宝珀公寓",
+      "values": {
+        "项目推广名称": "宝珀公寓",
+        "最新开盘": "2022-09-09",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "宝源路128弄",
+        "建筑面积（㎡）": "57717",
+        "容积率": "3.7",
+        "绿化率": "35.00",
+        "总户数": "310",
+        "开发商": "上海集银房地产开发有限公司",
+        "物业费（元/㎡·月）": "7.50",
+        "物业公司": "上海绿城物业有限公司"
+      },
+      "address": "宝源路128弄",
+      "lng": 121.47514235907123,
+      "lat": 31.25750749374891,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.486198,
+        "lat": 31.261384
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "宝珀公寓",
+        "matchedName": "宝珀公寓",
+        "matchedAddress": "上海市静安区宝源路128弄",
+        "uid": "88f4c989aa627d6859bbbc99",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "宝珀公寓",
+        "label": "近期成交价格参考",
+        "unitPrice": 109322,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "太平洋房屋",
+        "url": "https://www.taiwu.com/xiaoqu/E00042707.html",
+        "note": "宝源路128弄。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-4"
+    },
+    {
+      "id": "resale-5",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "招商外滩玺",
+      "values": {
+        "项目推广名称": "招商外滩玺",
+        "最新开盘": "2022-03-23",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "金田路65弄",
+        "建筑面积（㎡）": "54310",
+        "容积率": "2.5",
+        "绿化率": "35.00",
+        "总户数": "442",
+        "开发商": "上海虹裕置业有限公司",
+        "物业费（元/㎡·月）": "9.50",
+        "物业公司": "--"
+      },
+      "address": "金田路65弄",
+      "lng": 121.49065512541446,
+      "lat": 31.257332669575284,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.501702,
+        "lat": 31.260988
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "招商外滩玺",
+        "matchedName": "招商外滩玺",
+        "matchedAddress": "上海市虹口区金田路65弄1-12号",
+        "uid": "7e7150216c59a2d7d2f49e2b",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "招商外滩玺",
+        "label": "近期成交价格参考",
+        "unitPrice": 90218,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/esf/sh_xm1210131752/",
+        "note": "采用二手房小区页指标。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-5"
+    },
+    {
+      "id": "resale-6",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中皇·北岸锦源",
+      "values": {
+        "项目推广名称": "中皇·北岸锦源",
+        "最新开盘": "2022-01-20",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "嘉兴路街道梧州路218弄",
+        "建筑面积（㎡）": "87584",
+        "容积率": "4.1",
+        "绿化率": "35.00",
+        "总户数": "344",
+        "开发商": "--",
+        "物业费（元/㎡·月）": "3.50",
+        "物业公司": "--"
+      },
+      "address": "嘉兴路街道梧州路218弄",
+      "lng": 121.4901650138516,
+      "lat": 31.256219985660824,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.501214,
+        "lat": 31.259879
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "中皇·北岸锦源",
+        "matchedName": "中皇北岸锦源",
+        "matchedAddress": "上海市虹口区金田路与周家嘴路交汇处",
+        "uid": "ae24f534afffb988e50738de",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称对应；百度使用金田路/周家嘴路交叉口，截图使用梧州路218弄，保留两种地址。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "中皇·北岸锦源",
+        "label": "近期成交价格参考",
+        "unitPrice": 132401,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考价",
+        "periodLabel": "09月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://www.fang.com/xiaoqu/sh-1210131796/",
+        "note": "梧州路218弄。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-6"
+    },
+    {
+      "id": "resale-7",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "弘久·新弘北外滩",
+      "values": {
+        "项目推广名称": "弘久·新弘北外滩",
+        "最新开盘": "2022-01-19",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "保定路118弄",
+        "建筑面积（㎡）": "109453",
+        "容积率": "4.14",
+        "绿化率": "28.00",
+        "总户数": "432",
+        "开发商": "上海鸿旭房地产发展有限公司",
+        "物业费（元/㎡·月）": "3.20",
+        "物业公司": "上海凡享资产管理有限公司"
+      },
+      "address": "保定路118弄",
+      "lng": 121.50869041600063,
+      "lat": 31.25861658996278,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.519653,
+        "lat": 31.26229
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "弘久·新弘北外滩",
+        "matchedName": "弘久新弘北外滩",
+        "matchedAddress": "上海市虹口区保定路118弄兰侨大厦东侧约80米(大连路地铁站6号口步行60米)",
+        "uid": "09898baf7dea00cb40afe6fb",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "弘久·新弘北外滩",
+        "label": "近期成交价格参考",
+        "unitPrice": 97345,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "11月07—13日（指标未单列年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/esf/sh/8_1026109288.html",
+        "note": "采用页面明确标注的周挂牌指标；未与同页另一均价取平均。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-7"
+    },
+    {
+      "id": "resale-8",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "招商云玺",
+      "values": {
+        "项目推广名称": "招商云玺",
+        "最新开盘": "2022-01-13",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "四平路436弄",
+        "建筑面积（㎡）": "46164",
+        "容积率": "3.7",
+        "绿化率": "35.00",
+        "总户数": "215",
+        "开发商": "上海翰沣置业有限公司",
+        "物业费（元/㎡·月）": "9.50",
+        "物业公司": "--"
+      },
+      "address": "四平路436弄",
+      "lng": 121.48829796405151,
+      "lat": 31.26793790011218,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.49934,
+        "lat": 31.271616
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "招商云玺",
+        "matchedName": "招商云玺",
+        "matchedAddress": "上海市虹口区四平路436弄",
+        "uid": "0bad0bcd6eda357d90114c69",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "招商云玺",
+        "label": "近期成交价格参考",
+        "unitPrice": null,
+        "range": {
+          "min": 80254,
+          "max": 86250
+        },
+        "unit": "元/㎡",
+        "type": "挂牌样本区间",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "安居客",
+        "url": "https://shanghai.anjuke.com/sale/hongkou/o4-y2-z1/",
+        "note": "四平路436弄；3条房源：1366万元/170.21㎡、1380万元/160㎡、1380万元/163.63㎡。仅代表所见样本，未经房源去重，不是小区成交区间。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-8"
+    },
+    {
+      "id": "resale-9",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "九庐",
+      "values": {
+        "项目推广名称": "九庐",
+        "最新开盘": "2021-12-08",
+        "建筑类别": "板楼",
+        "区县": "浦东新区",
+        "板块": "陆家嘴滨江",
+        "项目地址": "滨江大道1773弄",
+        "建筑面积（㎡）": "114830",
+        "容积率": "2.3",
+        "绿化率": "35.00",
+        "总户数": "580",
+        "开发商": "中船置业有限公司",
+        "物业费（元/㎡·月）": "17.80",
+        "物业公司": "中信泰富(上海)物业管理有限公司"
+      },
+      "address": "滨江大道1773弄",
+      "lng": 121.51110752282017,
+      "lat": 31.244722397753645,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.522064,
+        "lat": 31.248417
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "九庐",
+        "matchedName": "九庐",
+        "matchedAddress": "上海市浦东新区滨江大道1773弄(浦东大道地铁站6号口步行370米)",
+        "uid": "c62e3575f0f19bccfadc8573",
+        "tag": "房地产;住宅区",
+        "baiduArea": "浦东新区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "九庐",
+        "label": "近期成交价格参考",
+        "unitPrice": 135689,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台披露月度成交统计",
+        "periodLabel": "2026年9月；文章发布2026-11-20",
+        "sourceName": "乐居／克而瑞好房点评网",
+        "url": "https://sh.leju.com/news/2026-11-20/09537529360374815308180.shtml",
+        "note": "文中九庐4套、763㎡的月度统计；来源注明由行业AI模型整合，未取得逐套网签记录。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-9"
+    },
+    {
+      "id": "resale-10",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中兴路一号",
+      "values": {
+        "项目推广名称": "中兴路一号",
+        "最新开盘": "2021-06-01",
+        "建筑类别": "塔楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "宝昌路272号,鸿兴路177弄、188弄",
+        "建筑面积（㎡）": "109754",
+        "容积率": "3.54",
+        "绿化率": "35.00",
+        "总户数": "229",
+        "开发商": "上海恺冠臻房地产开发有限公司",
+        "物业费（元/㎡·月）": "14.98",
+        "物业公司": "上海万科物业服务有限公司"
+      },
+      "address": "宝昌路272号,鸿兴路177弄、188弄",
+      "lng": 121.47095531442828,
+      "lat": 31.258523029503355,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.482005,
+        "lat": 31.262485
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "静雅名邸",
+        "matchedName": "中兴路一号Oriental One",
+        "matchedAddress": "上海市静安区宝昌路272号（Oriental One旁）",
+        "uid": "3ea9f9d737bfe8c632f71d4d",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "通过已核实别名静雅名邸补查，选中宝昌路272号主体；排除道路、咖啡店、售楼处及浦东晶耀名邸。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "中兴路一号",
+        "label": "近期成交价格参考",
+        "unitPrice": 130591,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "成交与挂牌综合参考",
+        "periodLabel": "平台称近6个月；未列绝对起止日期",
+        "sourceName": "幸福里",
+        "url": "https://m.99hdf.com/xiaoqu/bj-7077396125619060767.html?from=share",
+        "note": "页面名称、中兴路与宝昌路交叉口、上海恺冠臻开发商与项目对应；URL城市前缀异常，未据前缀判断为北京项目。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-10"
+    },
+    {
+      "id": "resale-11",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "苏河湾中心润府",
+      "values": {
+        "项目推广名称": "苏河湾中心润府",
+        "最新开盘": "2020-06-20",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "福建北路228弄",
+        "建筑面积（㎡）": "111949",
+        "容积率": "5.5",
+        "绿化率": "24.50",
+        "总户数": "224",
+        "开发商": "上海华合房地产开发有限公司",
+        "物业费（元/㎡·月）": "10.80",
+        "物业公司": "华润物业科技服务有限公司"
+      },
+      "address": "福建北路228弄",
+      "lng": 121.47455024630347,
+      "lat": 31.246332490344216,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.485614,
+        "lat": 31.250218
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "苏河湾中心润府",
+        "matchedName": "苏河湾润府",
+        "matchedAddress": "上海市静安区福建北路228号5~6号",
+        "uid": "f320d54bb881558eeb1e971c",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "百度名称为苏河湾润府，福建北路228号，名称及门牌基本匹配。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "苏河湾中心润府",
+        "label": "近期成交价格参考",
+        "unitPrice": 158550,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称参考成交均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "链家",
+        "url": "https://news.lianjia.com/sh/xiaoqu/50000000031658.html",
+        "note": "页面称上月成交10套，未列绝对月份或逐套价格。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-11"
+    },
+    {
+      "id": "resale-12",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "瑞虹新城悦庭",
+      "values": {
+        "项目推广名称": "瑞虹新城悦庭",
+        "最新开盘": "2019-07-06",
+        "建筑类别": "板塔结合",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "瑞虹路368弄",
+        "建筑面积（㎡）": "155805",
+        "容积率": "3.63",
+        "绿化率": "37.00",
+        "总户数": "650",
+        "开发商": "上海瑞虹新城有限公司",
+        "物业费（元/㎡·月）": "6.68",
+        "物业公司": "上海丰诚物业管理有限公司"
+      },
+      "address": "瑞虹路368弄",
+      "lng": 121.49507213644416,
+      "lat": 31.268374319611507,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.506096,
+        "lat": 31.272007
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "瑞虹新城悦庭",
+        "matchedName": "瑞虹新城悦庭",
+        "matchedAddress": "上海市虹口区天宝路333号",
+        "uid": "33c9c8c5ad735d3a6f3e1b0f",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "主体使用天宝路333号；同组东门/北门及房天下小区页标明瑞虹路368弄，属于同一小区。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "瑞虹新城悦庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 139700,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称参考成交均价",
+        "periodLabel": "文章发布2026-10-23；统计区间未披露",
+        "sourceName": "链家",
+        "url": "https://m.lianjia.com/news/sh/xiaoqu/5012745558208861.html",
+        "note": "沿用试查中可读指标，未取得逐套成交记录。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-12"
+    },
+    {
+      "id": "resale-13",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "珠江铂世外滩界",
+      "values": {
+        "项目推广名称": "珠江铂世外滩界",
+        "最新开盘": "2019-04-17",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "衡水路89弄(近四川北路)",
+        "建筑面积（㎡）": "78000",
+        "容积率": "4.16",
+        "绿化率": "35.00",
+        "总户数": "204",
+        "开发商": "--",
+        "物业费（元/㎡·月）": "6.00",
+        "物业公司": "广东康景物业服务有限公司上海分公司"
+      },
+      "address": "衡水路89弄(近四川北路)",
+      "lng": 121.48165622402692,
+      "lat": 31.257873486969636,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.492714,
+        "lat": 31.261635
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "珠江铂世外滩界",
+        "matchedName": "珠江·铂世外滩界-西门",
+        "matchedAddress": "上海市虹口区虬江路123号",
+        "uid": "3964818aefe235808936eee5",
+        "tag": "出入口;门",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "多次检索仅找到本项目西门、停车场及一期主体。本次单独保留同名西门坐标作为入口参考，未认定为二期主体位置；不使用国际明佳城一期坐标。",
+        "method": "named_entrance_reference"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "entrance_reference",
+      "coordinateStatus": "入口参考，二期主体待核",
+      "notes": [],
+      "marketPrice": {
+        "name": "珠江铂世外滩界",
+        "label": "近期成交价格参考",
+        "unitPrice": 133370,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "11月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/fangjia/xiaoqu/sh/1210126248.html",
+        "note": "采用同名小区价格参考；二期主体位置仍待核。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-13"
+    },
+    {
+      "id": "resale-14",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "建邦16区二期",
+      "values": {
+        "项目推广名称": "建邦16区二期",
+        "最新开盘": "2018-10-26",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "天宝路488号",
+        "建筑面积（㎡）": "209819",
+        "容积率": "3.96",
+        "绿化率": "40.00",
+        "总户数": "1388",
+        "开发商": "上海瀛联置业有限公司",
+        "物业费（元/㎡·月）": "2.60",
+        "物业公司": "上海振翔物业管理有限公司"
+      },
+      "address": "天宝路488号",
+      "lng": 121.49191744833593,
+      "lat": 31.26844065799615,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.502951,
+        "lat": 31.272089
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "建邦16区二期",
+        "matchedName": "建邦16区2期",
+        "matchedAddress": "上海市虹口区虹关路建邦大厦",
+        "uid": "ad47a99367c0a7a53a04b1c1",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "选取明确标注2期的主体，百度地址为虹关路建邦大厦；截图天宝路488号在百度另对应1期，存在期别/门牌差异，已保留待核说明。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "建邦16区二期",
+        "label": "近期成交价格参考",
+        "unitPrice": 108582,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/sh-1211151588.html",
+        "note": "价格页明确二期；地图定位与截图门牌的期别差异保留说明。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-14"
+    },
+    {
+      "id": "resale-15",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中粮天悦壹号",
+      "values": {
+        "项目推广名称": "中粮天悦壹号",
+        "最新开盘": "2016-11-22",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "曲阜路66弄",
+        "建筑面积（㎡）": "55655",
+        "容积率": "2.2",
+        "绿化率": "35.00",
+        "总户数": "230",
+        "开发商": "上海新兰房地产开发有限公司",
+        "物业费（元/㎡·月）": "12.80",
+        "物业公司": "上海万科物业管理有限公司"
+      },
+      "address": "曲阜路66弄",
+      "lng": 121.46998659209109,
+      "lat": 31.245461594970287,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.481045,
+        "lat": 31.249441
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "中粮天悦壹号",
+        "matchedName": "中粮天悦一号",
+        "matchedAddress": "上海市静安区曲阜路66弄",
+        "uid": "bc6a2541929025d95abbbc06",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "中粮天悦壹号",
+        "label": "近期成交价格参考",
+        "unitPrice": 191907,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "房天下",
+        "url": "https://fangjia.fang.com/sh/process/1211235948.htm",
+        "note": "页面曲阜路66弄。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-15"
+    },
+    {
+      "id": "resale-16",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "融创外滩188",
+      "values": {
+        "项目推广名称": "融创外滩188",
+        "最新开盘": "2016-07-17",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "商丘路399弄",
+        "建筑面积（㎡）": "58000",
+        "容积率": "3.8",
+        "绿化率": "20.00",
+        "总户数": "200",
+        "开发商": "上海融绿启威置业有限公司",
+        "物业费（元/㎡·月）": "8.30",
+        "物业公司": "绿城物业服务集团有限公司虹口分公司"
+      },
+      "address": "商丘路399弄",
+      "lng": 121.49067903442038,
+      "lat": 31.25487333848096,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.501728,
+        "lat": 31.258528
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "融创外滩188",
+        "matchedName": "融创·外滩188",
+        "matchedAddress": "上海市虹口区商丘路399弄1-5号",
+        "uid": "93d06df74d27e5e8bfa8229b",
+        "tag": "房地产;写字楼",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和商丘路399弄匹配。百度标为写字楼；房产平台用途信息也有分歧，坐标定位与住宅产权认定分开。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "useReview": "住宅/商办或酒店用途待核；已定位不等于已确认住宅产权。",
+      "marketPrice": {
+        "name": "融创外滩188",
+        "label": "近期成交价格参考",
+        "unitPrice": 75690,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "本周（页面未列绝对起止日期）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/strategy/sh/1211190886.html",
+        "note": "商丘路399弄；用途分歧单独保留，不以价格认定住宅产权。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-16"
+    },
+    {
+      "id": "resale-17",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "怡水豪庭",
+      "values": {
+        "项目推广名称": "怡水豪庭",
+        "最新开盘": "2016-05-21",
+        "建筑类别": "高层",
+        "区县": "黄浦区",
+        "板块": "人民广场",
+        "项目地址": "南苏州路933号",
+        "建筑面积（㎡）": "40381",
+        "容积率": "8.02",
+        "绿化率": "15.90",
+        "总户数": "609",
+        "开发商": "上海海怡大厦置业有限公司",
+        "物业费（元/㎡·月）": "8.80",
+        "物业公司": "上海涵悦物业服务有限公司"
+      },
+      "address": "南苏州路933号",
+      "lng": 121.47023864984175,
+      "lat": 31.242382908131177,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.481299,
+        "lat": 31.246356
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "怡水豪庭",
+        "matchedName": "怡水豪庭写字楼",
+        "matchedAddress": "黄浦人民广场南苏州路933号",
+        "uid": "c1fe9cac9cf3f81f16c905b3",
+        "tag": "房地产;写字楼",
+        "baiduArea": "黄浦区",
+        "areaUsedForMatching": false,
+        "note": "名称和南苏州路933号匹配，采用同址建筑点；百度名称带写字楼，住宅用途待核。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "useReview": "住宅/商办或酒店用途待核；已定位不等于已确认住宅产权。",
+      "marketPrice": {
+        "name": "怡水豪庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 35896,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "页面更新2026-10-22",
+        "sourceName": "吉屋",
+        "url": "https://sh.jiwu.com/loupan/173759.html",
+        "note": "南苏州路933号公寓；更新时间不等于成交日期。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-17"
+    },
+    {
+      "id": "resale-18",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "华侨城苏河湾",
+      "values": {
+        "项目推广名称": "华侨城苏河湾",
+        "最新开盘": "2016-05-01",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "山西北路88弄",
+        "建筑面积（㎡）": "450000",
+        "容积率": "3.74",
+        "绿化率": "27.00",
+        "总户数": "480",
+        "开发商": "华侨城(上海)置地有限公司",
+        "物业费（元/㎡·月）": "13.80",
+        "物业公司": "华侨城物业(集团)有限公司"
+      },
+      "address": "山西北路88弄",
+      "lng": 121.4768293890472,
+      "lat": 31.24465382087219,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.487896,
+        "lat": 31.248495
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "华侨城苏河湾",
+        "matchedName": "华侨城苏河湾-东区",
+        "matchedAddress": "上海市静安区河南中路654号山西北路88弄2号(天潼路地铁站5号口步行270米)",
+        "uid": "957795e11f8f326d95ca07a2",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "按山西北路88弄采用华侨城苏河湾东区，未采用曲阜路9弄行政公馆；这是项目代表点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "华侨城苏河湾",
+        "label": "近期成交价格参考",
+        "unitPrice": 133072,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "9月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/fangjia/xiaoqu/sh/1211039828.html",
+        "note": "对应山西北路88弄，排除行政公馆及别墅条目。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-18"
+    },
+    {
+      "id": "resale-19",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "瑞虹新城怡庭",
+      "values": {
+        "项目推广名称": "瑞虹新城怡庭",
+        "最新开盘": "2016-02-21",
+        "建筑类别": "板塔结合",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "瑞虹路233弄",
+        "建筑面积（㎡）": "119876",
+        "容积率": "3.39",
+        "绿化率": "38.97",
+        "总户数": "680",
+        "开发商": "上海瑞虹新城有限公司",
+        "物业费（元/㎡·月）": "6.00",
+        "物业公司": "上海丰诚物业管理有限公司"
+      },
+      "address": "瑞虹路233弄",
+      "lng": 121.49651759290128,
+      "lat": 31.266281569049813,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.507538,
+        "lat": 31.26991
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "瑞虹新城怡庭",
+        "matchedName": "瑞虹新城·怡庭",
+        "matchedAddress": "上海市虹口区嘉兴路街道瑞虹路233弄12号",
+        "uid": "5bc3508223d9bf9ee5073895",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "瑞虹新城怡庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 111505,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "信义房屋",
+        "url": "https://www.sinyi.com.cn/neighborhood/detail?id=503",
+        "note": "瑞虹路233弄；采用桌面小区页挂牌指标。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-19"
+    },
+    {
+      "id": "resale-20",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "瑞虹新城璟庭",
+      "values": {
+        "项目推广名称": "瑞虹新城璟庭",
+        "最新开盘": "2015-10-01",
+        "建筑类别": "板塔结合",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "虹关路323弄、天虹路328-330号",
+        "建筑面积（㎡）": "186081",
+        "容积率": "3.49",
+        "绿化率": "35.00",
+        "总户数": "744",
+        "开发商": "上海瑞虹新城有限公司",
+        "物业费（元/㎡·月）": "5.18",
+        "物业公司": "上海丰诚物业管理有限公司"
+      },
+      "address": "虹关路323弄、天虹路328-330号",
+      "lng": 121.49241253178096,
+      "lat": 31.2670020209271,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.503446,
+        "lat": 31.270647
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "瑞虹新城璟庭",
+        "matchedName": "瑞虹新城璟庭",
+        "matchedAddress": "上海市虹口区虹关路323号",
+        "uid": "a04d619b035ecc258505bf05",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "瑞虹新城璟庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 112188,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "11月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/fangjia/xiaoqu/sh/1211068462.html",
+        "note": "未使用按价格段筛选的成交榜单均价。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-20"
+    },
+    {
+      "id": "resale-21",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "宏惠花苑二期",
+      "values": {
+        "项目推广名称": "宏惠花苑二期",
+        "最新开盘": "2014-06-17",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "大连路159弄",
+        "建筑面积（㎡）": "15517",
+        "容积率": "2.44",
+        "绿化率": "25.00",
+        "总户数": "89",
+        "开发商": "上海市虹口区房产开发经营有限公司",
+        "物业费（元/㎡·月）": "2.00",
+        "物业公司": "上海锐嘉科实业有限公司"
+      },
+      "address": "大连路159弄",
+      "lng": 121.51081610060379,
+      "lat": 31.25655887864959,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.521766,
+        "lat": 31.260253
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "宏惠花苑二期",
+        "matchedName": "宏惠花苑-二期",
+        "matchedAddress": "上海市虹口区大连路159弄1~2号",
+        "uid": "bf3f6da7d3afff0a5fbe86d8",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "百度有明确二期主体，大连路159弄1~2号；与旧版榆林路69/119弄宏惠花苑分开。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [
+        "旧版榆林路69/119弄宏惠花苑与本次大连路159弄二期分开，使用新查二期坐标。"
+      ],
+      "marketPrice": {
+        "name": "宏惠花苑二期",
+        "label": "近期成交价格参考",
+        "unitPrice": 105331.94,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "我爱我家",
+        "url": "https://sh.5i5j.com/ershoufang/466144/",
+        "note": "大连路159弄二期；页面在售2套，房源有2026-07-10日期，小区指标统计期未披露。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-21"
+    },
+    {
+      "id": "resale-22",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "瑞虹新城铭庭",
+      "values": {
+        "项目推广名称": "瑞虹新城铭庭",
+        "最新开盘": "2012-12-31",
+        "建筑类别": "塔楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "天宝路181弄",
+        "建筑面积（㎡）": "107005",
+        "容积率": "4.0",
+        "绿化率": "35.00",
+        "总户数": "644",
+        "开发商": "上海瑞虹新城有限公司",
+        "物业费（元/㎡·月）": "3.30",
+        "物业公司": "上海丰诚物业管理有限公司"
+      },
+      "address": "天宝路181弄",
+      "lng": 121.49335004978636,
+      "lat": 31.26455166883027,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.504383,
+        "lat": 31.268191
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "瑞虹新城铭庭",
+        "matchedName": "瑞虹新城·铭庭",
+        "matchedAddress": "天宝路181弄",
+        "uid": "44d3039be1908e3bb5147fa4",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "瑞虹新城铭庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 115366,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "10月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/fangjia/xiaoqu/sh/1210009929.html",
+        "note": "天宝路181弄。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-22"
+    },
+    {
+      "id": "resale-23",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "溧阳公馆",
+      "values": {
+        "项目推广名称": "溧阳公馆",
+        "最新开盘": "2012-11-22",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "溧阳路1155号",
+        "建筑面积（㎡）": "17044",
+        "容积率": "0.2",
+        "绿化率": "35.00",
+        "总户数": "46",
+        "开发商": "虹口世纪大酒店有限公司",
+        "物业费（元/㎡·月）": "4.50",
+        "物业公司": "武汉丰诚物业管理有限公司"
+      },
+      "address": "溧阳路1155号",
+      "lng": 121.48392936515171,
+      "lat": 31.264426578233387,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.49498,
+        "lat": 31.268156
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "溧阳公馆",
+        "matchedName": "溧阳公馆",
+        "matchedAddress": "上海市虹口区溧阳路1155号(海伦路地铁站7号口步行480米)",
+        "uid": "b6925940963d17c979dbd240",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [
+        "容积率0.2按截图保留，待核。"
+      ],
+      "marketPrice": {
+        "name": "溧阳公馆",
+        "label": "近期成交价格参考",
+        "unitPrice": 28062,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台二手房参考价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "58同城爱房",
+        "url": "https://mfang.58.com/sh/xinfang/xq100028612/",
+        "note": "溧阳路1155号；小区资料标注商住用途，价格不代表住宅产权。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-23"
+    },
+    {
+      "id": "resale-24",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中粮海景壹号",
+      "values": {
+        "项目推广名称": "中粮海景壹号",
+        "最新开盘": "2012-06-21",
+        "建筑类别": "板楼",
+        "区县": "浦东新区",
+        "板块": "陆家嘴滨江",
+        "项目地址": "银城中路600弄",
+        "建筑面积（㎡）": "116605",
+        "容积率": "4.0",
+        "绿化率": "51.00",
+        "总户数": "317",
+        "开发商": "--",
+        "物业费（元/㎡·月）": "12.00",
+        "物业公司": "上海高力国际物业服务有限公司"
+      },
+      "address": "银城中路600弄",
+      "lng": 121.49911712268279,
+      "lat": 31.233501903492915,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.510147,
+        "lat": 31.23712
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "中粮海景壹号",
+        "matchedName": "中粮海景壹号",
+        "matchedAddress": "上海市浦东新区银城中路600弄1-10号",
+        "uid": "be1ea5ef579a3cc214948e0b",
+        "tag": "房地产;住宅区",
+        "baiduArea": "浦东新区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "中粮海景壹号",
+        "label": "近期成交价格参考",
+        "unitPrice": 135163,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台披露月度成交统计",
+        "periodLabel": "2026年9月；文章发布2026-11-20",
+        "sourceName": "乐居／克而瑞好房点评网",
+        "url": "https://sh.leju.com/news/2026-11-20/09537529360374815308180.shtml",
+        "note": "浦东项目；文中仅1套、340㎡样本，不代表全小区均价。来源注明由行业AI模型整合，未取得逐套网签记录。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-24"
+    },
+    {
+      "id": "resale-25",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中信虹港名庭酒店式公寓",
+      "values": {
+        "项目推广名称": "中信虹港名庭酒店式公寓",
+        "最新开盘": "2012-03-31",
+        "建筑类别": "--",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "物华路138号",
+        "建筑面积（㎡）": "7600",
+        "容积率": "--",
+        "绿化率": "35.00",
+        "总户数": "--",
+        "开发商": "中信地产",
+        "物业费（元/㎡·月）": "10.00",
+        "物业公司": "上海金天物业有限公司"
+      },
+      "address": "物华路138号",
+      "lng": 121.48993934453122,
+      "lat": 31.262616930800977,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.500983,
+        "lat": 31.266279
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "中信虹港名庭酒店式公寓",
+        "matchedName": "中信虹港铭庭酒店式公寓",
+        "matchedAddress": "物华路138号",
+        "uid": "4ebd30b22062c89397ec84d7",
+        "tag": "酒店;公寓式酒店",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "百度写作中信虹港铭庭酒店式公寓，物华路138号完全对应；与物华路118弄住宅分开保留，产权用途待核。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [
+        "与物华路118弄中信虹港名庭分别保留；酒店式公寓产权及用途未核实。"
+      ],
+      "useReview": "住宅/商办或酒店用途待核；已定位不等于已确认住宅产权。",
+      "marketPrice": {
+        "name": "中信虹港名庭酒店式公寓",
+        "label": "近期成交价格参考",
+        "unitPrice": 57316,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "中原找房",
+        "url": "https://sh.centanet.com/xiaoqu/xq-pekawbwsbs/",
+        "note": "物华路138号；与物华路118弄住宅分开，不共用价格。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-25"
+    },
+    {
+      "id": "resale-26",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "海伦国际",
+      "values": {
+        "项目推广名称": "海伦国际",
+        "最新开盘": "2011-10-29",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "宝山路748号(宝山路海伦路路口)",
+        "建筑面积（㎡）": "18745",
+        "容积率": "3.6",
+        "绿化率": "20.00",
+        "总户数": "127",
+        "开发商": "中梁地产",
+        "物业费（元/㎡·月）": "8.58",
+        "物业公司": "广东中颐投资集团物业管理公司"
+      },
+      "address": "宝山路748号(宝山路海伦路路口)",
+      "lng": 121.47496768549848,
+      "lat": 31.26417680062193,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.486017,
+        "lat": 31.268058
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "海伦国际",
+        "matchedName": "海伦国际",
+        "matchedAddress": "上海市虹口四川北路宝山路748号",
+        "uid": "c2ddf405a6a1c17e6b49f3b7",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "海伦国际",
+        "label": "近期成交价格参考",
+        "unitPrice": 32062,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "11月07—13日（指标未单列年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/sh/1210893912.html",
+        "note": "宝山路748号；使用周挂牌指标。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-26"
+    },
+    {
+      "id": "resale-28",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "复地新都国际",
+      "values": {
+        "项目推广名称": "复地新都国际",
+        "最新开盘": "2011-02-21",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "宝山路268弄",
+        "建筑面积（㎡）": "120000",
+        "容积率": "3.75",
+        "绿化率": "45.00",
+        "总户数": "609",
+        "开发商": "上海鼎奋房地产开发经营有限公司",
+        "物业费（元/㎡·月）": "4.80",
+        "物业公司": "上海复瑞物业管理有限公司"
+      },
+      "address": "宝山路268弄",
+      "lng": 121.47119654435241,
+      "lat": 31.25582365138584,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.482249,
+        "lat": 31.25978
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "复地新都国际",
+        "matchedName": "复地新都国际",
+        "matchedAddress": "上海市静安区永兴路86-88号",
+        "uid": "690b6fe6cac4362acb09f074",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "同名项目百度使用永兴路86-88号；截图使用宝山路268弄，房产平台及高德分别采用这两种地址。按用户近似匹配规则保留主体坐标并注明地址差异。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "复地新都国际",
+        "label": "近期成交价格参考",
+        "unitPrice": 94021,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "10月31日—11月06日（指标未单列年份）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/esf/sh/3_511906353.html",
+        "note": "上海宝山路268弄／永兴路86弄项目，已排除南京同名小区。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-28"
+    },
+    {
+      "id": "resale-29",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "鸿旭豪苑",
+      "values": {
+        "项目推广名称": "鸿旭豪苑",
+        "最新开盘": "2010-11-21",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "昆明路388弄",
+        "建筑面积（㎡）": "--",
+        "容积率": "3.76",
+        "绿化率": "39.00",
+        "总户数": "354",
+        "开发商": "上海鸿旭房地产发展有限公司",
+        "物业费（元/㎡·月）": "1.95",
+        "物业公司": "--"
+      },
+      "address": "昆明路388弄",
+      "lng": 121.5071763628214,
+      "lat": 31.260573164977117,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.518147,
+        "lat": 31.264234
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "鸿旭豪苑",
+        "matchedName": "鸿旭豪苑",
+        "matchedAddress": "上海市虹口区昆明路388弄(大连路地铁站3号口旁)",
+        "uid": "68897ac597aacee4c91b95ca",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "鸿旭豪苑",
+        "label": "近期成交价格参考",
+        "unitPrice": 89470,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称参考成交均价",
+        "periodLabel": "文章发布2026-10-11；统计区间未披露",
+        "sourceName": "链家",
+        "url": "https://news.lianjia.com/sh/xiaoqu/5011000014533.html",
+        "note": "昆明路388弄；与长阳路355号写字楼记录分开。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-29"
+    },
+    {
+      "id": "resale-30",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "中信虹港名庭",
+      "values": {
+        "项目推广名称": "中信虹港名庭",
+        "最新开盘": "2010-11-13",
+        "建筑类别": "板塔结合",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "物华路118弄",
+        "建筑面积（㎡）": "56940",
+        "容积率": "3.44",
+        "绿化率": "35.00",
+        "总户数": "300",
+        "开发商": "中信地产",
+        "物业费（元/㎡·月）": "3.20",
+        "物业公司": "上海金天物业管理有限公司"
+      },
+      "address": "物华路118弄",
+      "lng": 121.4894778093523,
+      "lat": 31.262017055140415,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.500523,
+        "lat": 31.265683
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "中信虹港名庭",
+        "matchedName": "中信虹港名庭",
+        "matchedAddress": "上海市虹口区物华路118弄海伦路地铁站1号口步行380米",
+        "uid": "aa40108b8b6e0b6bc5effb1b",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "中信虹港名庭",
+        "label": "近期成交价格参考",
+        "unitPrice": 100281,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考价",
+        "periodLabel": "09月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://www.fang.com/xiaoqu/sh-1210717154/",
+        "note": "物华路118弄住宅。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-30"
+    },
+    {
+      "id": "resale-31",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "豪景苑",
+      "values": {
+        "项目推广名称": "豪景苑",
+        "最新开盘": "2010-06-01",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "武昌路338号",
+        "建筑面积（㎡）": "67302",
+        "容积率": "4.64",
+        "绿化率": "25.10",
+        "总户数": "383",
+        "开发商": "汉荣房地产开发(上海)有限公司",
+        "物业费（元/㎡·月）": "3.90",
+        "物业公司": "上海高力国际物业服务有限公司"
+      },
+      "address": "武昌路338号",
+      "lng": 121.48377412646134,
+      "lat": 31.249205548854878,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.494838,
+        "lat": 31.252934
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "豪景苑",
+        "matchedName": "外滩豪景苑",
+        "matchedAddress": "上海市虹口区武昌路338号",
+        "uid": "637df60a9d4b497140afe638",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "选择武昌路338号外滩豪景苑；排除第一项武定路静安豪景苑。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "豪景苑",
+        "label": "近期成交价格参考",
+        "unitPrice": 142730,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考价",
+        "periodLabel": "11月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://www.fang.com/xiaoqu/sh-1210528062/",
+        "note": "武昌路338弄外滩豪景苑；排除武定路静安豪景苑。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-31"
+    },
+    {
+      "id": "resale-32",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "白金湾府邸",
+      "values": {
+        "项目推广名称": "白金湾府邸",
+        "最新开盘": "2009-10-18",
+        "建筑类别": "板塔结合",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "海平路18号",
+        "建筑面积（㎡）": "81268",
+        "容积率": "4.55",
+        "绿化率": "35.60",
+        "总户数": "136",
+        "开发商": "上海莱因思置业有限公司",
+        "物业费（元/㎡·月）": "5.80",
+        "物业公司": "上海春川物业服务有限公司"
+      },
+      "address": "海平路18号",
+      "lng": 121.50202732875991,
+      "lat": 31.252382041064546,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.513035,
+        "lat": 31.256012
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "白金湾府邸",
+        "matchedName": "白金湾府邸",
+        "matchedAddress": "虹口海平路18号A",
+        "uid": "4642844a8e8edfa7c9fa5f1e",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "白金湾府邸",
+        "label": "近期成交价格参考",
+        "unitPrice": 100244,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "本周（页面未列绝对起止日期）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/strategy/sh/1210489422.html",
+        "note": "海平路18号。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-32"
+    },
+    {
+      "id": "resale-33",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "万豪公寓",
+      "values": {
+        "项目推广名称": "万豪公寓",
+        "最新开盘": "2009-10-14",
+        "建筑类别": "板楼",
+        "区县": "静安区",
+        "板块": "不夜城",
+        "项目地址": "塘沽路835号",
+        "建筑面积（㎡）": "23000",
+        "容积率": "4.9",
+        "绿化率": "35.00",
+        "总户数": "74",
+        "开发商": "上海万豪房地产开发有限公司",
+        "物业费（元/㎡·月）": "1.70",
+        "物业公司": "上海玺利物业管理有限公司"
+      },
+      "address": "塘沽路835号",
+      "lng": 121.47517061817454,
+      "lat": 31.24786425485455,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.486234,
+        "lat": 31.251738
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "万豪公寓",
+        "matchedName": "万豪公寓",
+        "matchedAddress": "上海市静安区塘沽路835号1103号(天潼路地铁站6号口步行350米)",
+        "uid": "cdef4edfe7f3833228d7ab51",
+        "tag": "房地产;住宅区",
+        "baiduArea": "静安区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "万豪公寓",
+        "label": "近期成交价格参考",
+        "unitPrice": 71038,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称参考成交均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "链家",
+        "url": "https://news.lianjia.com/sh/xiaoqu/5011000012567.html",
+        "note": "塘沽路835弄；页面称上月5套，未列绝对月份。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-33"
+    },
+    {
+      "id": "resale-34",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "溧阳华府",
+      "values": {
+        "项目推广名称": "溧阳华府",
+        "最新开盘": "2009-09-19",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "宝安路1号",
+        "建筑面积（㎡）": "109999",
+        "容积率": "4.5",
+        "绿化率": "36.60",
+        "总户数": "740",
+        "开发商": "上海虹祺房地产有限公司",
+        "物业费（元/㎡·月）": "1.69",
+        "物业公司": "港联物业(中国)有限公司"
+      },
+      "address": "宝安路1号",
+      "lng": 121.48440281639692,
+      "lat": 31.265602786123946,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.495452,
+        "lat": 31.269326
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "溧阳华府",
+        "matchedName": "溧阳华府-1期",
+        "matchedAddress": "上海市虹口区宝安路溧阳华府",
+        "uid": "bcc373ab5b7577e8fa0cad3b",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "截图地址为宝安路1号，采用百度宝安路侧溧阳华府1期代表点，不采用溧阳路1111号2期。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "溧阳华府",
+        "label": "近期成交价格参考",
+        "unitPrice": 93826,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "本周（页面未列绝对起止日期）",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/strategy/sh/1210113480.html",
+        "note": "宝安路1号项目条目，不套用溧阳路1111号二期。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-34"
+    },
+    {
+      "id": "resale-35",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "外滩99",
+      "values": {
+        "项目推广名称": "外滩99",
+        "最新开盘": "2009-07-01",
+        "建筑类别": "板楼",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "项目地址": "天潼路508、528号",
+        "建筑面积（㎡）": "21050",
+        "容积率": "3.9",
+        "绿化率": "40.00",
+        "总户数": "223",
+        "开发商": "上海七浦万丰房地产开发经营有限公司",
+        "物业费（元/㎡·月）": "2.90",
+        "物业公司": "上海爱峰物业管理有限公司"
+      },
+      "address": "天潼路508、528号",
+      "lng": 121.47851742346867,
+      "lat": 31.24625001797718,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.489584,
+        "lat": 31.250061
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "外滩99",
+        "matchedName": "外滩99",
+        "matchedAddress": "上海市虹口区天潼路508号",
+        "uid": "0432b45a54d83e1012882490",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "外滩99",
+        "label": "近期成交价格参考",
+        "unitPrice": 113736,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台称参考成交均价",
+        "periodLabel": "文章发布2026-11-10；统计区间未披露",
+        "sourceName": "链家",
+        "url": "https://news.lianjia.com/sh/xiaoqu/5011000017882.html",
+        "note": "采用同名上海小区指标，页面称上月6套。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-35"
+    },
+    {
+      "id": "resale-36",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "虹叶花苑二期",
+      "values": {
+        "项目推广名称": "虹叶花苑二期",
+        "最新开盘": "2009-07-01",
+        "建筑类别": "塔楼",
+        "区县": "虹口区",
+        "板块": "四川北路",
+        "项目地址": "长春路158弄8-12号",
+        "建筑面积（㎡）": "37335",
+        "容积率": "1.8",
+        "绿化率": "35.00",
+        "总户数": "257",
+        "开发商": "上海红叶房地产有限公司",
+        "物业费（元/㎡·月）": "1.80",
+        "物业公司": "--"
+      },
+      "address": "长春路158弄8-12号",
+      "lng": 121.48161405626524,
+      "lat": 31.26312284447057,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.492667,
+        "lat": 31.266886
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "虹叶花苑二期",
+        "matchedName": "虹叶花苑二期小区",
+        "matchedAddress": "上海市虹口区长春路158弄8-12号",
+        "uid": "2944990e3450a8a4100daa20",
+        "tag": "房地产;住宅区",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "虹叶花苑二期",
+        "label": "近期成交价格参考",
+        "unitPrice": 76753,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台小区参考均价",
+        "periodLabel": "页面未明确统计日期",
+        "sourceName": "房天下",
+        "url": "https://fangjia.fang.com/sh/process/1210010106.htm",
+        "note": "长春路158弄8—12号。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-36"
+    },
+    {
+      "id": "resale-37",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "汤臣一品",
+      "values": {
+        "项目推广名称": "汤臣一品",
+        "最新开盘": "2009-06-22",
+        "建筑类别": "塔楼",
+        "区县": "浦东新区",
+        "板块": "陆家嘴滨江",
+        "项目地址": "花园石桥路28弄",
+        "建筑面积（㎡）": "141894",
+        "容积率": "5.97",
+        "绿化率": "40.00",
+        "总户数": "133",
+        "开发商": "汤臣海景花园(上海浦东新区)有限公司",
+        "物业费（元/㎡·月）": "15.00",
+        "物业公司": "大峰物业公司, 晶华物业公司"
+      },
+      "address": "花园石桥路28弄",
+      "lng": 121.49713767036809,
+      "lat": 31.235054516761224,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.508176,
+        "lat": 31.238674
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "汤臣一品",
+        "matchedName": "汤臣一品",
+        "matchedAddress": "上海市浦东新区花园石桥路28弄1-8号",
+        "uid": "c21db9e5ba8b938201ff2dad",
+        "tag": "房地产;住宅区",
+        "baiduArea": "浦东新区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [],
+      "marketPrice": {
+        "name": "汤臣一品",
+        "label": "近期成交价格参考",
+        "unitPrice": 248056,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考价",
+        "periodLabel": "11月（页面未明确年份）",
+        "sourceName": "房天下",
+        "url": "https://www.fang.com/xiaoqu/sh-1210071642/",
+        "note": "沿用已试查的二手房小区参考指标。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-37"
+    },
+    {
+      "id": "resale-39",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "name": "瑞苑公寓",
+      "values": {
+        "项目推广名称": "瑞苑公寓",
+        "最新开盘": "2008-09-13",
+        "建筑类别": "板楼",
+        "区县": "浦东新区",
+        "板块": "陆家嘴滨江",
+        "项目地址": "浦东大道3号",
+        "建筑面积（㎡）": "800000",
+        "容积率": "4.4",
+        "绿化率": "25.00",
+        "总户数": "248",
+        "开发商": "上海瑞苑房地产有限公司",
+        "物业费（元/㎡·月）": "10.00",
+        "物业公司": "上海世邦魏理仕物业顾问有限公司"
+      },
+      "address": "浦东大道3号",
+      "lng": 121.50677118619548,
+      "lat": 31.241716613024977,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.517758,
+        "lat": 31.24537
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "瑞苑公寓",
+        "matchedName": "瑞苑公寓",
+        "matchedAddress": "上海市浦东新区浦东大道3号",
+        "uid": "060f5e53e7bcdcce081cc716",
+        "tag": "房地产;住宅区",
+        "baiduArea": "浦东新区",
+        "areaUsedForMatching": false,
+        "note": "名称与浦东大道3号匹配；上一版同址写字楼未定位，本次独立查询住宅区主体。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "coordinateStatus": "已定位",
+      "notes": [
+        "与上一版瑞苑公寓写字楼同址，但用途记录不同且旧版未查坐标；本次保留公寓主体。建筑面积800000按截图保留，待核。"
+      ],
+      "marketPrice": {
+        "name": "瑞苑公寓",
+        "label": "近期成交价格参考",
+        "unitPrice": 80692,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "页面更新2026-10-22",
+        "sourceName": "吉屋",
+        "url": "https://sh.jiwu.com/loupan/153027.html",
+        "note": "浦东大道3号；使用上海小区页面，未采用旧售楼页价格。",
+        "observedDate": "2026-11-24",
+        "status": "已取得公开参考",
+        "verifiedIndividualTransaction": false
+      },
+      "sources": [],
+      "dataSource": "用户提供的项目资料；价格来自公开房产平台",
+      "sourceRecordId": "resale-v2-39"
+    },
+    {
+      "id": "office-extra-1",
+      "name": "虹口北外滩开业园区",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "虹口北外滩开业园区",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "--",
+        "售价（元/㎡）": "42097.00",
+        "在租": "--",
+        "在售": "--",
+        "建筑面积（㎡）": "7500",
+        "物业管理费（元/㎡·月）": "10",
+        "开发商": "--",
+        "物业公司": "外滩房产有限公司"
+      },
+      "sources": [
+        "新增项目_20261125/3.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "已定位",
+      "lng": 121.49184488589182,
+      "lat": 31.249681806825322,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.253327,
+        "lng": 121.502895
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "虹口北外滩开业园区",
+        "matchedName": "虹口北外滩开业园区",
+        "matchedAddress": "上海市虹口区东大名路393号",
+        "tag": "公司企业;园区",
+        "uid": "593850fb694b3a5cdf1e522c",
+        "note": "项目名称与所在道路匹配，采用主体参考点。"
+      },
+      "address": "上海市虹口区东大名路393号"
+    },
+    {
+      "id": "office-extra-2",
+      "name": "上海港国际客运中心",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "上海港国际客运中心",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "8.15",
+        "售价（元/㎡）": "54641.00",
+        "在租": "--",
+        "在售": "--",
+        "建筑面积（㎡）": "350000",
+        "物业管理费（元/㎡·月）": "25",
+        "开发商": "上海港国际客运中心开发有限公司",
+        "物业公司": "上海港国际客运开发有限公司"
+      },
+      "sources": [
+        "新增项目_20261125/4.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "已定位",
+      "lng": 121.4922932974545,
+      "lat": 31.248509943806873,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.252152,
+        "lng": 121.503343
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "上海港国际客运中心",
+        "matchedName": "上海港国际客运中心",
+        "matchedAddress": "上海市虹口区东大名路538号",
+        "tag": "交通设施;港口",
+        "uid": "dffd4642d3eab6b33c9a5e03",
+        "note": "采用同名客运中心整体项目参考点；该点不代表其中某栋办公楼，面积按截图的整体项目口径。"
+      },
+      "address": "上海市虹口区东大名路538号"
+    },
+    {
+      "id": "office-extra-3",
+      "name": "远洋大厦",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "远洋大厦",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "3.88",
+        "售价（元/㎡）": "44191.00",
+        "在租": "--",
+        "在售": "--",
+        "建筑面积（㎡）": "31500",
+        "物业管理费（元/㎡·月）": "30",
+        "开发商": "中远集装箱运输有限公司",
+        "物业公司": "上海上远物业管理有限公司"
+      },
+      "sources": [
+        "新增项目_20261125/6.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "已定位",
+      "lng": 121.49201288372004,
+      "lat": 31.249034055406945,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.252678,
+        "lng": 121.503063
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "远洋大厦",
+        "matchedName": "远洋大厦",
+        "matchedAddress": "上海市虹口区东大名路378号",
+        "tag": "房地产;写字楼",
+        "uid": "373cf75776402e6f4354d736",
+        "note": "项目名称与所在道路匹配，采用主体参考点。"
+      },
+      "address": "上海市虹口区东大名路378号"
+    },
+    {
+      "id": "office-extra-4",
+      "name": "国际港务大厦",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "国际港务大厦",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "6.95",
+        "售价（元/㎡）": "37579.00",
+        "在租": "1套",
+        "在售": "--",
+        "建筑面积（㎡）": "57782",
+        "物业管理费（元/㎡·月）": "31",
+        "开发商": "上海港国际客运中心开发有限公司",
+        "物业公司": "仲量联行物业管理有限公司"
+      },
+      "sources": [
+        "新增项目_20261125/8.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "已定位",
+      "lng": 121.49118434739034,
+      "lat": 31.248480557567753,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.25213,
+        "lng": 121.502237
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "国际港务大厦",
+        "matchedName": "国际港务大厦",
+        "matchedAddress": "上海市虹口区东大名路358号",
+        "tag": "房地产;写字楼",
+        "uid": "a5ef680f899762aab9df8f08",
+        "note": "项目名称与所在道路匹配，采用主体参考点。"
+      },
+      "address": "上海市虹口区东大名路358号"
+    },
+    {
+      "id": "office-extra-5",
+      "name": "北外滩111艺术园区",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "北外滩111艺术园区",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "5.51",
+        "售价（元/㎡）": "39780.00",
+        "在租": "--",
+        "在售": "--",
+        "建筑面积（㎡）": "4800",
+        "物业管理费（元/㎡·月）": "6.5",
+        "开发商": "良友物流集团股份有限公司",
+        "物业公司": "上海瑞阁物业管理有限公司"
+      },
+      "sources": [
+        "新增项目_20261125/5.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "已定位",
+      "lng": 121.49689624031971,
+      "lat": 31.251814916638633,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.25544,
+        "lng": 121.507928
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "北外滩111艺术园区",
+        "matchedName": "北外滩111艺术园区",
+        "matchedAddress": "上海市溧阳路111号",
+        "tag": "公司企业;园区",
+        "uid": "8aa846ac762c78cc077ce883",
+        "note": "项目名称与所在道路匹配，采用主体参考点。"
+      },
+      "address": "上海市溧阳路111号"
+    },
+    {
+      "id": "office-extra-6",
+      "name": "锦发商务楼",
+      "type": "office",
+      "officeClass": "非甲级补充",
+      "values": {
+        "项目名称": "锦发商务楼",
+        "等级": "其他",
+        "板块": "北外滩",
+        "租金（元/㎡·天）": "--",
+        "售价（元/㎡）": "38932.00",
+        "在租": "--",
+        "在售": "--",
+        "建筑面积（㎡）": "1850",
+        "物业管理费（元/㎡·月）": "15",
+        "开发商": "部队房产",
+        "物业公司": "--"
+      },
+      "sources": [
+        "新增项目_20261125/7.png"
+      ],
+      "dataSource": "用户提供的中指数据库截图",
+      "coordinateStatus": "门牌参考位置",
+      "lng": 121.49028964108214,
+      "lat": 31.24760995140346,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.251266,
+        "lng": 121.501345
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "黄浦路200号",
+        "matchedName": "黄浦路200号",
+        "matchedAddress": "虹口区",
+        "tag": null,
+        "uid": null,
+        "note": "项目名称搜索未匹配；根据乐居项目页黄浦路200号查询门牌点，仅作位置参考。"
+      },
+      "address": "黄浦路200号",
+      "addressEvidence": "https://house.leju.com/sh/47484/"
+    },
+    {
+      "id": "resale-extra-1",
+      "name": "白金府邸",
+      "address": "旅顺路199弄",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "values": {
+        "项目推广名称": "白金府邸",
+        "城市": "上海",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "环线": "内环以内",
+        "项目地址": "旅顺路199弄",
+        "物业类型": "住宅",
+        "物业类型明细": "普通住宅",
+        "建筑形态": "高层",
+        "楼盘特色": "3km三甲医院、3km购物中心、3km公园",
+        "销售状态": "售完",
+        "占地面积（㎡）": "19470",
+        "产权年限": "70年产权",
+        "装修状况": "--",
+        "装修标准": "--",
+        "建筑风格": "--",
+        "建筑类别": "板楼",
+        "停车位总量": "--",
+        "停车位描述": "白金府邸车位总数共420个",
+        "即将开盘时间": "--",
+        "最新开盘时间": "--",
+        "最早开盘时间": "--",
+        "竣工时间": "2005-01-01",
+        "交房时间": "--",
+        "售楼地址": "--",
+        "企业标签": "鹏欣集团"
+      },
+      "sources": [],
+      "sourceEvidence": "用户截图1.png（原截图报价未采用）",
+      "coordinateStatus": "已定位",
+      "lng": 121.48997029232922,
+      "lat": 31.252286193865697,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lat": 31.255946,
+        "lng": 121.501023
+      },
+      "coordinateSystem": "WGS84",
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "locationReview": {
+        "date": "2026-11-25",
+        "query": "白金府邸",
+        "matchedName": "白金府邸",
+        "matchedAddress": "上海市虹口区旅顺路199弄1-7号",
+        "tag": "房地产;住宅区",
+        "uid": "0dc3d82d9738746d75e5b631",
+        "note": "项目名称与所在道路匹配，采用主体参考点。"
+      },
+      "marketPrice": {
+        "name": "白金府邸",
+        "label": "近期成交价格参考",
+        "unitPrice": 93660,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "平台参考均价",
+        "periodLabel": "页面更新2026-11-23；成交统计区间未披露",
+        "observedDate": "2026-11-25",
+        "sourceName": "吉屋",
+        "url": "https://sh.jiwu.com/loupan/173180.html",
+        "note": "对应旅顺路199弄；与海平路18号白金湾府邸分开。",
+        "verifiedIndividualTransaction": false
+      }
+    },
+    {
+      "id": "resale-extra-2",
+      "name": "扬子江大厦",
+      "address": "东长治路299弄",
+      "type": "residential",
+      "residentialMarkets": [
+        "resale"
+      ],
+      "values": {
+        "项目推广名称": "扬子江大厦",
+        "城市": "上海",
+        "区县": "虹口区",
+        "板块": "北外滩",
+        "环线": "内环以内",
+        "项目地址": "东长治路299弄",
+        "物业类型": "整体、住宅、商业",
+        "物业类型明细": "住宅型公寓、商住楼",
+        "建筑形态": "高层",
+        "楼盘特色": "小户型、3km三甲医院、3km购物中心、3km公园",
+        "销售状态": "售完",
+        "占地面积（㎡）": "6800",
+        "产权年限": "70年产权",
+        "装修状况": "装修",
+        "装修标准": "--",
+        "建筑风格": "--",
+        "建筑类别": "板楼",
+        "停车位总量": "--",
+        "停车位描述": "停车位的比例是1:0.8",
+        "即将开盘时间": "--",
+        "最新开盘时间": "2001-01-01",
+        "最早开盘时间": "2001-01-01",
+        "竣工时间": "2001-01-01",
+        "交房时间": "--",
+        "售楼地址": "上海虹口东长治路299号"
+      },
+      "sources": [],
+      "sourceEvidence": "用户截图2.png（原截图报价未采用）",
+      "coordinateStatus": "复用已核对坐标",
+      "lng": 121.4897677638753,
+      "lat": 31.250871801245513,
+      "sourceCoordinate": {
+        "crs": "BD-09",
+        "lng": 121.500822,
+        "lat": 31.254533
+      },
+      "coordinateSystem": "WGS84",
+      "locationReview": {
+        "date": "2026-11-24",
+        "query": "扬子江大厦",
+        "matchedName": "扬子江大厦",
+        "matchedAddress": "上海市虹口区东长治路299弄1-2号",
+        "uid": "f5e3bcaec356fbc05e17c336",
+        "tag": "房地产;写字楼",
+        "baiduArea": "虹口区",
+        "areaUsedForMatching": false,
+        "note": "名称和道路门牌基本匹配，采用主体项目点。",
+        "method": "name_address_review"
+      },
+      "locationSource": "https://api.map.baidu.com/place/v2/search",
+      "locationConfidence": "approximate",
+      "useReview": "截图含住宅与商业，按用户要求加入二手房；百度建筑标签为写字楼，不据此认定具体单元产权。",
+      "marketPrice": {
+        "name": "扬子江大厦",
+        "label": "近期成交价格参考",
+        "unitPrice": 112846,
+        "range": null,
+        "unit": "元/㎡",
+        "type": "挂牌均价",
+        "periodLabel": "本周（页面未列绝对起止日期）",
+        "observedDate": "2026-11-25",
+        "sourceName": "房天下",
+        "url": "https://m.fang.com/xiaoqu/strategy/sh/1210023293.html",
+        "note": "对应东长治路299弄；取打开页面时的挂牌指标，不使用截图中的历史售楼价。",
+        "verifiedIndividualTransaction": false
+      }
     }
   ],
   "own": {
@@ -4642,5 +7542,19 @@
       "name": "杨浦区平凉社区02E1-01地块(大桥街道94街坊)",
       "reason": "截图最早/最新开盘时间有数据"
     }
-  ]
+  ],
+  "resaleUpdate": {
+    "date": "2026-11-24",
+    "inputRecords": 37,
+    "added": 36,
+    "merged": 1,
+    "priceLabel": "近期成交价格参考"
+  },
+  "additionalUpdate": {
+    "date": "2026-11-25",
+    "officeAdded": 6,
+    "resaleAdded": 2,
+    "coordinateReused": 1,
+    "addressReference": 1
+  }
 }
